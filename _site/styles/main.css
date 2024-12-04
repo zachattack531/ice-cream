@@ -1,3 +1,15 @@
+.alegreya-sans-medium {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.alegreya-sans-extrabold-italic {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+  
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -21,9 +33,10 @@ nav ul{
 
 
 nav ul li a{
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 500;
     text-decoration: none;
     color:#c51c55;
-    font-weight: 400;
     font-size: 18px;
 }
 
@@ -35,6 +48,8 @@ li.selected{
 }
 
 .logo{
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 800;
     font-style: italic;
-    color:hsl(0, 100%, 50%);
+    color:black;
 }
