@@ -1,39 +1,33 @@
+---
+navPages:
+    - title: Home
+      url: /index.html
+    - title: Ice Cream
+      url: /ice-cream
+    - title: Other Sweets
+      url: /other-sweets
+    - title: About
+      url: /about
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/main.css">
-    <title>Zach's | Home</title>
+    <title>Zach's | {{name}}</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="/index">
-                        Home
-                    </a>
-                </li>
-
-                <li>
-                    <a href="/ice-cream">
-                        Ice Cream!
-                    </a>
-                </li>
-
-                <li>
-                    <a href="/other-sweets">
-                        Other Sweets!
-                    </a>
-                </li>
-
-                <li>
-                    <a href="/about">
-                    About
-                    </a>
-                </li>
-            </ul>
+      <nav>
+        <ul>
+          {%- for entry in navPages %}
+            <li {% if entry.title == name %} class="selected" {% endif %} >
+              <a href="{{ entry.url }}">{{ entry.title }}</a>
+            </li>
+          {%- endfor %}
+        </ul>
         </nav>
     </header>
 

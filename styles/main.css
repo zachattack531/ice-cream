@@ -18,15 +18,19 @@ nav ul{
     gap: 5em;
 }
 
+
+
 nav ul li a{
     text-decoration: none;
-    color: black;
+    color:#c51c55;
     font-weight: 400;
     font-size: 18px;
 }
 
-a.selected{
+
+
+li.selected{
     text-decoration: underline;
     font-style: italic;
-    color:#c51c55
 }
+
