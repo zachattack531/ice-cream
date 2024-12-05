@@ -1,13 +1,7 @@
-.alegreya-sans-medium {
-    font-family: "Alegreya Sans", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
-
-.alegreya-sans-extrabold-italic {
-    font-family: "Alegreya Sans", sans-serif;
-    font-weight: 800;
-    font-style: italic;
+:root {
+    --vanilla:hsl(45, 100%, 89%);
+    --strawberry:hsl(340, 75%, 44%);
+    --chocolate:hsl(25, 100%, 18%);
 }
   
 body {
@@ -20,24 +14,31 @@ h4{
 
 nav {
     border: .3em solid black;
-    background:#fff1c7;
+    background:var(--vanilla);
+    justify-content: left;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+nav ul, nav{
+    list-style: none;
+    display: flex;
+    gap: 5em;
+    border: 2px solid black;
 }
 
 nav ul{
-    list-style: none;
-    display: flex;
     justify-content: center;
-    gap: 5em;
+    border: 2px solid red;
 }
-
-
 
 nav ul li a{
     font-family: "Alegreya Sans", sans-serif;
     font-weight: 500;
     text-decoration: none;
-    color:#c51c55;
+    color:var(--strawberry);
     font-size: 18px;
+    vertical-align: middle;
 }
 
 
@@ -47,9 +48,10 @@ li.selected{
     font-style: italic;
 }
 
-.logo{
+.logoText{
     font-family: "Alegreya Sans", sans-serif;
     font-weight: 800;
+    font-size:36px;
     font-style: italic;
     color:black;
 }
