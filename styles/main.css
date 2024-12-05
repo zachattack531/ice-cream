@@ -12,24 +12,23 @@ h4{
     font-weight:100;
 }
 
-nav {
-    border: .3em solid black;
-    background:var(--vanilla);
-    justify-content: left;
-    padding-left: 5em;
-    padding-right: 5em;
-}
-
 nav ul, nav{
     list-style: none;
     display: flex;
-    gap: 5em;
-    border: 2px solid black;
+    justify-content: left;
+    gap: 2em;
 }
 
+nav {
+    border: .1em solid black;
+    background:var(--vanilla);
+    padding-left: 2em;
+}
+
+
 nav ul{
-    justify-content: center;
-    border: 2px solid red;
+    border: 2px solid red;   
+    align-items: center;
 }
 
 nav ul li a{
@@ -38,7 +37,6 @@ nav ul li a{
     text-decoration: none;
     color:var(--strawberry);
     font-size: 18px;
-    vertical-align: middle;
 }
 
 
