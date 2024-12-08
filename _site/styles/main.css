@@ -12,24 +12,27 @@ h4{
     font-weight:100;
 }
 
-nav ul, nav{
+header {
+    border: .1em solid black;
+    background:var(--vanilla);
+    padding-left: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    height: 3em;
+}
+
+header ul{
+    align-items: center;
+}
+
+header ul, header{
     list-style: none;
     display: flex;
     justify-content: left;
     gap: 2em;
 }
 
-nav {
-    border: .1em solid black;
-    background:var(--vanilla);
-    padding-left: 2em;
-}
-
-nav ul{
-    align-items: center;
-}
-
-nav ul li a{
+header ul li a{
     font-family: "Alegreya Sans", sans-serif;
     font-weight: 500;
     text-decoration: none;
@@ -45,6 +48,7 @@ li.selected{
 }
 
 .logoText{
+    margin-top:0em;
     font-family: "Alegreya Sans", sans-serif;
     font-weight: 800;
     font-size:36px;
