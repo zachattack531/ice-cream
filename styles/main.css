@@ -58,21 +58,38 @@ li.selected{
     position: relative;
 }
 
-.icImage{
+.icImage, .icShadow{
     width: 95vw;
 }
 
 .icShadow{
     display: flex;
     background-color: rgba(255, 255, 0, 0.286);
-    height: 20px;
+    height: 100px;
     position: absolute;
-    bottom: 8px;
-    z-index: 4;
+    bottom: 4px;
+}
+
+.icText, .icButton{
+    font-family: "Cherry Swash", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    left: 50%;
+    font-size: 25px;
 }
 
 .icText{
-    position: absolute;
-    bottom: 8px;
-    left: 47.5vw;
+    bottom: 55px;
+}
+
+.icButton, .icButton a:link{
+    background-color: #2b3def;
+    bottom: 15px;
+    color:#fff;
+    text-decoration: none;
+}
+
+.icButton a:active, .icButton a:hover, .icButton a:visited{
+    color:#aaa;
 }
