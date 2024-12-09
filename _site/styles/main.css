@@ -8,17 +8,22 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h4{
-    font-weight:100;
-}
-
 header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+    z-index: 2;
     border: .1em solid black;
     background:var(--vanilla);
     padding-left: 2em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     height: 3em;
+}
+
+h4{
+    font-weight:100;
 }
 
 header ul{
@@ -54,27 +59,42 @@ li.selected{
     color:black;
 }
 
-.icDiv{
-    position: relative;
-}
-
 .icImage, .icShadow{
     width: 95vw;
 }
 
-.icShadow{
-    display: flex;
+.icThirdImage, .icThirdShadow, .icThirdDiv{
+    width: 31vw;
+}
+
+.icDiv{
+    height: 782px;
+}
+
+.icThirdDiv {
+    height: 255px;
+    padding-top: 8px;
+    padding-left: 8px;
+
+}
+
+.beFlexible{
+    display:flex;
+    flex-wrap: nowrap;
+}
+
+.icShadow, .icThirdShadow {
     background-color: rgba(255, 255, 0, 0.286);
+    position: relative;
+    bottom:103px;
     height: 100px;
-    position: absolute;
-    bottom: 4px;
 }
 
 .icText, .icButton{
     font-family: "Cherry Swash", sans-serif;
     font-weight: 400;
     font-style: normal;
-    position: absolute;
+    text-align: center;
     left: 50%;
     font-size: 25px;
 }
