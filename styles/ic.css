@@ -1,0 +1,64 @@
+
+.icImage, .icShadow, .beFlexible{
+    width: 95vw;
+}
+
+.icThirdImage, .icThirdShadow{
+    width: 31.666vw;
+}
+
+.icDiv{
+    /*TODO: Scale me*/
+    height: 782px;
+}
+
+.icThirdDiv {
+    /*TODO: Scale me*/
+    height: 255px;
+    padding-top: 8px;
+
+}
+
+
+.icShadow, .icThirdShadow {
+    background-color: hsla(45, 100%, 89%, .7);
+    position: relative;
+    bottom:103px;
+    height: 100px;
+    border: 0.133vw solid black;
+}
+
+.icText, .icButton{
+    font-family: "Cherry Swash", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 25px;
+}
+
+.icText{
+    left: 50%;
+    bottom: 55px;
+}
+
+.icButton, .icButton a:link{
+    background-color: var(--strawberry);
+    bottom: 15px;
+    color:#fff;
+    text-decoration: none;
+}
+
+.icButton a:active, .icButton a:hover, .icButton a:visited{
+    color:#eee;
+}
+
+.icButton{
+    width:10vw;
+}
+
+.icButtonRow{
+    height: 1px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: baseline;
+}
