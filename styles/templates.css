@@ -5,8 +5,8 @@
     width: 100%;
     height: 100%;
     grid-template: 
-              "g g g" 75vh
-              "i o a" 25vh / 31vw 31vw 31vw;
+              "g g g" 67.5vh
+              "i o a" 22.5vh / 32vw 32vw 32vw;
       
 }
 
@@ -34,7 +34,7 @@
     height: 100%;
     grid-template: 
               "i r s" 60vh
-              "f f f" 30vh / 50vw 25vw 25vw;
+              "f f f" 30vh / 48vw 24vw 24vw;
 }
 
 #iceCream{
@@ -60,6 +60,30 @@
     width: 100%;
     height: 100%;
     grid-template: 
-              "i r s" 60vh
-              "f f f" 30vh / 50vw 25vw 25vw;
+              "c r r r" 45vh
+              "f m s p" 45vh / 22.5vw 22.5vw 22.5vw 22.5vw;
+}
+
+#iceCreamCakes{
+    grid-area:c;
+}
+
+#remoteIceCream{
+    grid-area:r;
+}
+
+#hotFudge{
+    grid-area:f;
+}
+
+#hotChoco{
+    grid-area:m;
+}
+
+#chocoSprinkes{
+    grid-area:s;
+}
+
+#pies{
+    grid-area:p;
 }

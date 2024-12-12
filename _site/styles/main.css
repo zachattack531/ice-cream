@@ -8,16 +8,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#page_home{
-    display:grid;
-    width: 100%;
-    height: 100%;
-    grid-template: 
-              "g g g" 75vh
-              "i o a" 25vh / 31vw 31vw 31vw;
-      
-}
-
 header {
 	position: fixed;
 	top: 0px;
@@ -67,12 +57,6 @@ li.selected{
     font-size:36px;
     font-style: italic;
     color:black;
-}
-
-.beFlexible{
-    display:flex;
-    flex-wrap: nowrap;
-    width: 9
 }
 
 #gallery{
