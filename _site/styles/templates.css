@@ -61,7 +61,7 @@
     height: 100%;
     grid-template: 
               "c r r r" 45vh
-              "f m s p" 45vh / 22.5vw 22.5vw 22.5vw 22.5vw;
+              "f m s p" 45vh / 24vw 24vw 24vw 24vw;
 }
 
 #iceCreamCakes{
@@ -86,8 +86,4 @@
 
 #pies{
     grid-area:p;
-}
-
-#none{
-    
 }
