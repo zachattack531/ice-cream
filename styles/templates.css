@@ -61,7 +61,7 @@
     height: 100%;
     grid-template: 
               "c r r r" 45vh
-              "f m s p" 45vh / 24vw 24vw 24vw 24vw;
+              "s s s p" 45vh / 24vw 24vw 24vw 24vw;
 }
 
 #iceCreamCakes{
@@ -71,7 +71,7 @@
 #remoteIceCream{
     grid-area:r;
 }
-
+/*
 #hotFudge{
     grid-area:f;
 }
@@ -79,8 +79,8 @@
 #hotChoco{
     grid-area:m;
 }
-
-#chocoSprinkes{
+*/
+#store{
     grid-area:s;
 }
 

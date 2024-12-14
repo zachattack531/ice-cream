@@ -23,7 +23,7 @@ header {
 }
 
 h4{
-    font-weight:100;
+    font-weight:300;
 }
 
 header ul{
@@ -57,20 +57,4 @@ li.selected{
     font-size:36px;
     font-style: italic;
     color:black;
-}
-
-#gallery{
-    grid-area: g;
-}
-
-#icaft{
-    grid-area: i;
-}
-
-#about{
-    grid-area: a;
-}
-
-#other{
-    grid-area: o;
 }

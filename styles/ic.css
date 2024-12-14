@@ -9,7 +9,7 @@
     background-color: hsla(45, 100%, 89%, .7);
     position: relative;
     bottom:103px;
-    height: 100px;
+    height: 77px;
     border: 0.133vw solid black;
     display:flex;
     flex-direction: column;
@@ -34,11 +34,24 @@
 }
 
 .icButton{
-    background-color: var(--strawberry);
     width: 10vw;
+    background-color: var(--strawberry);
+}
+
+#altButtonColor, #altButtonColor2, #altButtonColor3{
+    background-color: hsl(340, 75%, 34%);
 }
 
 .icButtonLine{
     display: flex;
-    justify-content: center;
+}
+
+#liveList .icShadow, #remoteIceCream .icShadow{
+    align-items: start;
+    padding-left: 10px;
+}
+
+.icAttrText{
+    position: relative;
+    left: 10px;
 }
