@@ -34,7 +34,7 @@
 }
 
 .icButton a:active, .icButton a:hover, .icButton a:visited{
-    color:#eee;
+    color:#c2c2c2;
 }
 
 .icButton{
@@ -58,4 +58,20 @@
 .icAttrText{
     position: relative;
     left: 10px;
+}
+
+#gallery{
+    width: 96vw;
+    overflow: hidden;
+    display: block;
+}
+
+#gallery .icShadow{
+    position: relative;
+    bottom: 53.75vh;
+}
+
+#gallery video{
+    width: 96vw;
+    height:auto
 }
