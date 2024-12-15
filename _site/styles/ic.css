@@ -28,12 +28,12 @@
     font-size: 25px;
 }
 
-.icButton, .icButton a:link{
+.icButton, .icButton a:link, .icButton a:visited{
     color:#fff;
     text-decoration: none;
 }
 
-.icButton a:active, .icButton a:hover, .icButton a:visited{
+.icButton a:active, .icButton a:hover{
     color:#c2c2c2;
 }
 
