@@ -16,6 +16,10 @@
     align-items: center;
 }
 
+#page_store .icDiv .icShadow{
+    height: 100px;
+}
+
 .icText, .icButton{
     font-family: "Cherry Swash", sans-serif;
     font-weight: 400;
