@@ -1,0 +1,20 @@
+#liveList .icShadow, #remoteIceCream .icShadow{
+    align-items: start;
+    padding-left: 10px;
+}
+
+#gallery video{
+    position: relative;
+    width: 96vw;
+    height:auto;
+    top:-100px;
+}
+
+#about{
+    height: 22.5vh;
+}
+
+#about img{
+    overflow: hidden;
+    object-fit: cover;
+}
