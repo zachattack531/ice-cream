@@ -1,0 +1,67 @@
+
+.icImage{
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+
+.icShadow, .icThirdShadow {
+    background-color: hsla(45, 100%, 89%, .7);
+    position: relative;
+    bottom:85px;
+    height: 77px;
+    border: 0.133vw solid black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#page_store .icDiv .icShadow{
+    height: 100px;
+}
+
+.icText, .icButton{
+    font-family: "Cherry Swash", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 25px;
+}
+
+.icButton, .icButton a:link, .icButton a:visited{
+    color:#fff;
+    text-decoration: none;
+}
+
+.icButton a:active, .icButton a:hover{
+    color:#c2c2c2;
+}
+
+.icButton{
+    width: 10vw;
+    background-color: var(--strawberry);
+}
+
+#altButtonColor, #altButtonColor2, #altButtonColor3{
+    background-color: hsl(340, 75%, 34%);
+}
+
+.icButtonLine{
+    display: flex;
+}
+
+.icAttrText{
+    position: relative;
+    left: 10px;
+}
+
+#gallery{
+    width: 96vw;
+    overflow: hidden;
+    display: block;
+}
+
+#gallery .icShadow{
+    position: relative;
+    bottom: 53.75vh;
+}

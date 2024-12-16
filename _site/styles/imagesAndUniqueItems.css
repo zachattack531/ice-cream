@@ -1,0 +1,58 @@
+:root {
+    --vanilla:hsl(45, 100%, 89%);
+    --strawberry:hsl(340, 75%, 44%);
+    --chocolate:hsl(25, 100%, 18%);
+}
+
+#liveList .icShadow, #remoteIceCream .icShadow{
+    align-items: start;
+    padding-left: 10px;
+}
+
+#gallery video, #store img{
+    position:relative;
+}
+
+#about{
+    height: 22.5vh;
+}
+
+#about img, #store img, #remoteIceCream img, #icaft img, #other img, #frozenYogurt img, #pies img, #iceCreamCakes img, #liveList img{
+    overflow: hidden;
+    object-fit: cover;
+}
+
+#gallery video{
+    height:auto;
+    top:-75px;
+}
+
+#store img{
+    object-position: 0 -26vh;
+}
+
+#other img{
+    object-position: 0 -13.5vh;
+}
+
+#remoteIceCream img{
+    object-position: 0 -12vh;
+}
+
+#icaft img{
+    zoom:200%;
+    object-position: 0 -4.5vh;
+}
+
+#frozenYogurt img{
+    zoom:200%;
+    object-position: -4.25vw 0vh;
+}
+#page_ice_cream .icShadow, #iceCreamCakes .icShadow, #remoteIceCream .icShadow{
+    bottom:96px;
+    height:88px;
+}
+
+#liveList img{
+    object-position: 0 -20vh;
+}

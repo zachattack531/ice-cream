@@ -4,39 +4,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles/main.css">
-    <title>Zach's | Ice Cream</title>
+    <link rel="stylesheet" href="/styles/ic.css">
+    <link rel="stylesheet" href="/styles/templates.css">
+    <link rel="stylesheet" href="/styles/imagesAndUniqueItems.css">
+    <title>Daryl's | Ice Cream and Frozen Treats!</title>
 </head>
+
 <body>
-    <header>
-      <nav>
-        <ul>
-            <li  >
-              <a href="/index.html">Home</a>
-            </li>
-            <li  class="selected"  >
-              <a href="/ice-cream">Ice Cream</a>
-            </li>
-            <li  >
-              <a href="/other-sweets">Other Sweets</a>
-            </li>
-            <li  >
-              <a href="/about">About</a>
-            </li>
-        </ul>
-        </nav>
+    <header>    
+      <img src="/images/logo.svg">
+      <p class="logoText">Daryl's!</p>
+      <ul>
+          <li  >
+            <a href="/index.html">Home</a>
+          </li>
+          <li  class="selected"  >
+            <a href="/ice-cream">Ice Cream and Frozen Treats!</a>
+          </li>
+          <li  >
+            <a href="/other-sweets">Other Sweets!</a>
+          </li>
+          <li  >
+            <a href="/about">About</a>
+          </li>
+      </ul>
     </header>
 
-    <main>
+    <main id="page_ice_cream">
        
-<h1>
-    Ice Cream
-</h1>
-<h4>
-    <i>
-        Oh, it's really good!
-    </i>
-</h4>
+<div class="icDiv" id="iceCream" alt="Ice cream cone">
+    <img src="/images/IMG_8054.jpeg" class="icImage">
+    <div class="icShadow">
+        <div class="icText">Ice Cream</div>
+        <div class="icButton"><a href="/flavors/all/">All Flavors</a></div>
+    </div>
+</div>
+<div class="icDiv" id="frozenYogurt" alt="Image of hands putting together frozen yogurt">
+    <img src="/images/stir-fried-ice-cream-rolls-at-freeze-pan-rolled-i-2024-08-08-06-19-23-utc.jpg" class="icImage">
+    <div class="icShadow">
+        <div class="icText">Frozen Yogurt</div>
+        <div class="icButton"><a href="/flavors/frozenYogurt/">All Flavors</a></div>
+    </div>
+</div>
+<div class="icDiv" id="sorbet" alt="Dish of sorbet">
+    <img src="/images/Strawberry_sorbet_zoomed.jpg" class="icImage">
+    <div class="icShadow">
+        <div class="icText">Sorbet</div>
+        <div class="icButton"><a href="/flavors/sorbet/">All Flavors</a></div>
+        <div class="icAttrText">
+            <a href="https://commons.wikimedia.org/wiki/File:Strawberry_sorbet_zoomed.jpg">star5112</a>, <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>, via Wikimedia Commons
+        </div>
+    </div>
+</div>
+<div class="icDiv" id="liveList">
+    <img src="/images/assorted-ice-cream-flavours-in-delightful-waffle-c-2024-11-25-19-18-01-utc.jpg" class="icImage">
+    <div class="icShadow">
+        <div class="icText">Live list of Flavors</div>
+        <div class="icButtonLine">
+            <div class="icButton"><a href="/flavors/liveNorthampton/">Northampton</a></div>
+            <div class="icButton" id="altButtonColor2"><a href="/flavors/liveAmherst/">Amherst</a></div>
+        </div>
+    </div>
+</div>
  
     </main>
 </body>

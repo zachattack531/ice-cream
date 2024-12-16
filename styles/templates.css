@@ -1,0 +1,103 @@
+#page_home, #page_ice_cream, #page_other_sweets, #page_store{
+    display:grid;
+    width: 100%;
+    height: 100%;
+}
+
+/*Home*/
+
+#page_home{
+    grid-template: 
+              "g g g" 67.5vh
+              "i o a" 22.5vh / 32vw 32vw 32vw;
+      
+}
+
+#gallery{
+    grid-area: g;
+}
+
+#icaft{
+    grid-area: i;
+}
+
+#about{
+    grid-area: a;
+}
+
+#other{
+    grid-area: o;
+}
+
+/*Ice Cream and Frozen Treats*/
+
+#page_ice_cream{
+    grid-template: 
+              "i r s" 60vh
+              "f f f" 30vh / 48vw 24vw 24vw;
+}
+
+#iceCream{
+    grid-area: i;
+}
+
+#frozenYogurt{
+    grid-area: r;
+}
+
+#sorbet{
+    grid-area: s;
+}
+
+#liveList{
+    grid-area: f;
+}
+
+/*Other Sweets*/
+
+#page_other_sweets{
+    grid-template: 
+              "c r r" 45vh
+              "s s p" 45vh / 24vw 48vw 24vw;
+}
+
+#iceCreamCakes{
+    grid-area:c;
+}
+
+#remoteIceCream{
+    grid-area:r;
+}
+/*
+#hotFudge{
+    grid-area:f;
+}
+
+#hotChoco{
+    grid-area:m;
+}
+*/
+#store{
+    grid-area:s;
+}
+
+#pies{
+    grid-area:p;
+}
+
+#page_store{
+    grid-template:
+        "f c s" 45vh 
+        "o o o" 0vh/ 24vw 24vw 24vw
+}
+
+#hotFudge{
+    grid-area:f;
+}
+
+#hotChoco{
+    grid-area:c;
+}
+#sprinkles{
+    grid-area:s;
+}

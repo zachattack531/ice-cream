@@ -4,39 +4,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles/main.css">
-    <title>Zach's | Other Sweets</title>
+    <link rel="stylesheet" href="/styles/ic.css">
+    <link rel="stylesheet" href="/styles/templates.css">
+    <link rel="stylesheet" href="/styles/imagesAndUniqueItems.css">
+    <title>Daryl's | Other Sweets!</title>
 </head>
+
 <body>
-    <header>
-      <nav>
-        <ul>
-            <li  >
-              <a href="/index.html">Home</a>
-            </li>
-            <li  >
-              <a href="/ice-cream">Ice Cream</a>
-            </li>
-            <li  class="selected"  >
-              <a href="/other-sweets">Other Sweets</a>
-            </li>
-            <li  >
-              <a href="/about">About</a>
-            </li>
-        </ul>
-        </nav>
+    <header>    
+      <img src="/images/logo.svg">
+      <p class="logoText">Daryl's!</p>
+      <ul>
+          <li  >
+            <a href="/index.html">Home</a>
+          </li>
+          <li  >
+            <a href="/ice-cream">Ice Cream and Frozen Treats!</a>
+          </li>
+          <li  class="selected"  >
+            <a href="/other-sweets">Other Sweets!</a>
+          </li>
+          <li  >
+            <a href="/about">About</a>
+          </li>
+      </ul>
     </header>
 
-    <main>
+    <main id="page_other_sweets">
        
-<h1>
-    Other Sweets
-</h1>
-<h4>
-    <i>
-        Oh, it's really good!
-    </i>
-</h4> 
+<div class="icDiv" id="iceCreamCakes">
+    <img src="/images/Chocolate_ice_cream_cake_Groom's.jpg" class="icImage" alt="Vanilla ice cream cake on a plate">
+    <div class="icShadow">
+        <div class="icText">Ice Cream Cakes</div>
+        <br><div class="icButton"><a href="/other/iceCreamCakes/">Order</a></div>
+        <div class="icAttrText">
+            <a href="https://commons.wikimedia.org/wiki/File:Chocolate_ice_cream_cake_Groom%27s.jpg">Debs</a>, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, via Wikimedia Commons
+        </div>
+    </div>
+</div>
+<div class="icDiv" id="remoteIceCream">
+    <img src="/images/Ice_Cream_Truck,_Bossier_City,_Louisiana.jpg" class="icImage" alt="Ice cream truck">
+    <div class="icShadow">
+        <div class="icText">Remote Ice Cream</div>
+        <div class="icButtonLine">
+            <div class="icButton"><a href="/other/partyPacks/">Party Packs</a></div>
+            <div class="icButton" id="altButtonColor3"><a href="/other/catering/">Catering</a></div>
+            <div class="icAttrText">
+                <a href="https://commons.wikimedia.org/wiki/File:Ice_Cream_Truck,_Bossier_City,_Louisiana.jpg">Steve Snodgrass</a>, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, via Wikimedia Commons
+            </div>
+        </div>
+    </div>
+</div>
+<div class="icDiv" id="store">
+    <img src="/images/inviting-ice-cream-shopfront-with-colorful-outdoor-2024-07-06-00-25-17-utc.jpg" class="icImage" alt="Colorful store with ice cream cones on it">
+    <div class="icShadow">
+        <div class="icText">Store</div>
+        <br><div class="icButton"><a href="/other/store/">Shop</a></div>
+    </div>
+</div>
+<div class="icDiv" id="pies">
+    <img src="/images/freshly-baked-buns-at-the-manufacturing-2023-11-27-05-14-09-utc.jpg" class="icImage" alt="Pies on a conveyor belt">
+    <div class="icShadow">
+        <div class="icText">Pies and Baked Goods</div>
+        <br><div class="icButton"><a href="/other/piesAndBakedGoods/">Order</a></div>
+    </div>
+</div> 
     </main>
 </body>
 </html>

@@ -2,9 +2,9 @@
 navPages:
     - title: Home
       url: /index.html
-    - title: Ice Cream
+    - title: Ice Cream and Frozen Treats!
       url: /ice-cream
-    - title: Other Sweets
+    - title: Other Sweets!
       url: /other-sweets
     - title: About
       url: /about
@@ -15,23 +15,31 @@ navPages:
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles/main.css">
-    <title>Zach's | {{name}}</title>
+    <link rel="stylesheet" href="/styles/ic.css">
+    <link rel="stylesheet" href="/styles/templates.css">
+    <link rel="stylesheet" href="/styles/imagesAndUniqueItems.css">
+    <title>Daryl's | {{name}}</title>
 </head>
+
 <body>
-    <header>
-      <nav>
-        <ul>
-          {%- for entry in navPages %}
-            <li {% if entry.title == name %} class="selected" {% endif %} >
-              <a href="{{ entry.url }}">{{ entry.title }}</a>
-            </li>
-          {%- endfor %}
-        </ul>
-        </nav>
+    <header>    
+      <img src="/images/logo.svg">
+      <p class="logoText">Daryl's!</p>
+      <ul>
+        {%- for entry in navPages %}
+          <li {% if entry.title == name %} class="selected" {% endif %} >
+            <a href="{{ entry.url }}">{{ entry.title }}</a>
+          </li>
+        {%- endfor %}
+      </ul>
     </header>
 
-    <main>
+    <main id="{{gridId}}">
        {{ content }} 
     </main>
 </body>
