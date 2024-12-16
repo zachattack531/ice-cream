@@ -17,7 +17,7 @@
     height: 22.5vh;
 }
 
-#about img, #store img, #remoteIceCream img, #icaft img, #other img, #frozenYogurt img, #pies img{
+#about img, #store img, #remoteIceCream img, #icaft img, #other img, #frozenYogurt img, #pies img, #iceCreamCakes img, #liveList img{
     overflow: hidden;
     object-fit: cover;
 }
@@ -48,19 +48,11 @@
     zoom:200%;
     object-position: -4.25vw 0vh;
 }
-
-#liveList img{
-    object-position: -1000vh;
-    background-color:var(--strawberry);
-}
-
-#store img{
-    object-position: -1000vh;
-    background-color:hsl(0, 0%, 70%);
-}
-
-
-#page_ice_cream .icShadow{
+#page_ice_cream .icShadow, #iceCreamCakes .icShadow, #remoteIceCream .icShadow{
     bottom:96px;
     height:88px;
+}
+
+#liveList img{
+    object-position: 0 -20vh;
 }
